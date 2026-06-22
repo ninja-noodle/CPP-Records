@@ -3,8 +3,7 @@
   <Project Name="ThatsMyFavNumberToo" Path="ThatsMyFavNumberToo/ThatsMyFavNumberToo.project" Active="No"/>
   <Project Name="InputSeparation" Path="InputSeparation/InputSeparation.project" Active="No"/>
   <Project Name="AddingNumbers" Path="AddingNumbers/AddingNumbers.project" Active="No"/>
-  <Project Name="AreaOfRoom" Path="AreaOfRoom/AreaOfRoom.project" Active="No"/>
-  <Project Name="Arrays" Path="ArraysAndVectors/ArraysAndVectors.project" Active="Yes"/>
+  <Project Name="AreaOfRoom" Path="AreaOfRoom/AreaOfRoom.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
