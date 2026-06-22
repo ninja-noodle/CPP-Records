@@ -4,7 +4,7 @@
   <Project Name="InputSeparation" Path="InputSeparation/InputSeparation.project" Active="No"/>
   <Project Name="AddingNumbers" Path="AddingNumbers/AddingNumbers.project" Active="No"/>
   <Project Name="AreaOfRoom" Path="AreaOfRoom/AreaOfRoom.project" Active="No"/>
-  <Project Name="ArraysAndVectors" Path="ArraysAndVectors/ArraysAndVectors.project" Active="Yes"/>
+  <Project Name="Arrays" Path="ArraysAndVectors/ArraysAndVectors.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -16,12 +16,12 @@
       <Project Name="InputSeparation" ConfigName="Debug"/>
       <Project Name="AddingNumbers" ConfigName="Debug"/>
       <Project Name="AreaOfRoom" ConfigName="Debug"/>
-      <Project Name="ArraysAndVectors" ConfigName="Debug"/>
-      <Project Name="ArraysAndVectors" ConfigName="Debug"/>
-      <Project Name="ArraysAndVectors" ConfigName="Debug"/>
-      <Project Name="ArraysAndVectors" ConfigName="Debug"/>
-      <Project Name="ArraysAndVectors" ConfigName="Debug"/>
-      <Project Name="ArraysAndVectors" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -32,13 +32,13 @@
       <Project Name="InputSeparation" ConfigName="Release"/>
       <Project Name="AddingNumbers" ConfigName="Release"/>
       <Project Name="AddingNumbers" ConfigName="Release"/>
-      <Project Name="ArraysAndVectors" ConfigName="Release"/>
-      <Project Name="ArraysAndVectors" ConfigName="Release"/>
-      <Project Name="ArraysAndVectors" ConfigName="Release"/>
-      <Project Name="ArraysAndVectors" ConfigName="Release"/>
-      <Project Name="ArraysAndVectors" ConfigName="Release"/>
-      <Project Name="ArraysAndVectors" ConfigName="Release"/>
-      <Project Name="ArraysAndVectors" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
