@@ -3,25 +3,9 @@
   <Project Name="ThatsMyFavNumberToo" Path="ThatsMyFavNumberToo/ThatsMyFavNumberToo.project" Active="No"/>
   <Project Name="InputSeparation" Path="InputSeparation/InputSeparation.project" Active="No"/>
   <Project Name="AddingNumbers" Path="AddingNumbers/AddingNumbers.project" Active="No"/>
-  <Project Name="AreaOfRoom" Path="AreaOfRoom/AreaOfRoom.project" Active="Yes"/>
+  <Project Name="AreaOfRoom" Path="AreaOfRoom/AreaOfRoom.project" Active="No"/>
+  <Project Name="Arrays" Path="Arrays/Arrays.project" Active="Yes"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Debug">
-      <Environment/>
-      <Project Name="BasicInfoDisplay" ConfigName="Debug"/>
-      <Project Name="ThatsMyFavNumberToo" ConfigName="Debug"/>
-      <Project Name="InputSeparation" ConfigName="Debug"/>
-      <Project Name="InputSeparation" ConfigName="Debug"/>
-      <Project Name="InputSeparation" ConfigName="Debug"/>
-      <Project Name="InputSeparation" ConfigName="Debug"/>
-      <Project Name="AddingNumbers" ConfigName="Debug"/>
-      <Project Name="AreaOfRoom" ConfigName="Debug"/>
-      <Project Name="Arrays" ConfigName="Debug"/>
-      <Project Name="Arrays" ConfigName="Debug"/>
-      <Project Name="Arrays" ConfigName="Debug"/>
-      <Project Name="Arrays" ConfigName="Debug"/>
-      <Project Name="Arrays" ConfigName="Debug"/>
-      <Project Name="Arrays" ConfigName="Debug"/>
-    </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="ThatsMyFavNumberToo" ConfigName="Release"/>
@@ -38,6 +22,24 @@
       <Project Name="Arrays" ConfigName="Release"/>
       <Project Name="Arrays" ConfigName="Release"/>
       <Project Name="Arrays" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="BasicInfoDisplay" ConfigName="Debug"/>
+      <Project Name="ThatsMyFavNumberToo" ConfigName="Debug"/>
+      <Project Name="InputSeparation" ConfigName="Debug"/>
+      <Project Name="InputSeparation" ConfigName="Debug"/>
+      <Project Name="InputSeparation" ConfigName="Debug"/>
+      <Project Name="InputSeparation" ConfigName="Debug"/>
+      <Project Name="AddingNumbers" ConfigName="Debug"/>
+      <Project Name="AreaOfRoom" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="Arrays" ConfigName="Debug"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
