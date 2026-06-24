@@ -4,7 +4,9 @@
   <Project Name="InputSeparation" Path="InputSeparation/InputSeparation.project" Active="No"/>
   <Project Name="AddingNumbers" Path="AddingNumbers/AddingNumbers.project" Active="No"/>
   <Project Name="AreaOfRoom" Path="AreaOfRoom/AreaOfRoom.project" Active="No"/>
-  <Project Name="Arrays" Path="Arrays/Arrays.project" Active="Yes"/>
+  <Project Name="Arrays" Path="Arrays/Arrays.project" Active="No"/>
+  <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
+  <Project Name="MYRtoSGDconverter" Path="MYRtoSGDconverter/MYRtoSGDconverter.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -22,6 +24,16 @@
       <Project Name="Arrays" ConfigName="Release"/>
       <Project Name="Arrays" ConfigName="Release"/>
       <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Vectors" ConfigName="Release"/>
+      <Project Name="AssignmentOperator" ConfigName="Release"/>
+      <Project Name="AssignmentOperator" ConfigName="Release"/>
+      <Project Name="AssignmentOperator" ConfigName="Release"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -40,6 +52,16 @@
       <Project Name="Arrays" ConfigName="Debug"/>
       <Project Name="Arrays" ConfigName="Debug"/>
       <Project Name="Arrays" ConfigName="Debug"/>
+      <Project Name="AssignmentOperator" ConfigName="Debug"/>
+      <Project Name="AssignmentOperator" ConfigName="Debug"/>
+      <Project Name="AssignmentOperator" ConfigName="Debug"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Debug"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Debug"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Debug"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Debug"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Debug"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Debug"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Debug"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
