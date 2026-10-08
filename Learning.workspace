@@ -6,7 +6,44 @@
   <Project Name="AreaOfRoom" Path="AreaOfRoom/AreaOfRoom.project" Active="No"/>
   <Project Name="Arrays" Path="Arrays/Arrays.project" Active="No"/>
   <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
-  <Project Name="MYRtoSGDconverter" Path="MYRtoSGDconverter/MYRtoSGDconverter.project" Active="Yes"/>
+  <Project Name="MYRtoSGDconverter" Path="MYRtoSGDconverter/MYRtoSGDconverter.project" Active="No"/>
+  <Project Name="Sem2_extra_activity" Path="Sem2_extra_activity/Sem2_extra_activity.project" Active="No"/>
+  <Project Name="Exercise" Path="Exercise/Exercise.project" Active="No"/>
+  <Project Name="SurfaceAreaCalcConst" Path="surface_area_calc/surface_area_calc.project" Active="No"/>
+  <Project Name="TotalMinutesInADay" Path="TotalMinutesInADay/TotalMinutesInADay.project" Active="No"/>
+  <Project Name="ageANDweight" Path="ageANDweight/ageANDweight.project" Active="No"/>
+  <Project Name="CinemaTicket" Path="CinemaTicket/CinemaTicket.project" Active="No"/>
+  <Project Name="FirstMiddleLast" Path="FirstMiddleLast/FirstMiddleLast.project" Active="No"/>
+  <Project Name="ContactInfo" Path="ContactInfo/ContactInfo.project" Active="No"/>
+  <Project Name="Pass" Path="Pass/Pass.project" Active="No"/>
+  <Project Name="Exe" Path="Exe/Exe.project" Active="No"/>
+  <Project Name="test-ground" Path="test-ground/test-ground.project" Active="No"/>
+  <VirtualDirectory Name="FOP-Assignment">
+    <Project Name="1-AlgebraicOperations" Path="AlgebraicOperations/AlgebraicOperations.project" Active="No"/>
+    <Project Name="2-IndependentOperations" Path="IndependentOperations/IndependentOperations.project" Active="No"/>
+    <Project Name="3-BooleanExpressions" Path="BooleanExpression/BooleanExpression.project" Active="No"/>
+    <Project Name="4-DebugExercise" Path="4-DebugExercise/4-DebugExercise.project" Active="No"/>
+    <Project Name="5-MultiplicationUserInput" Path="5-MultiplicationUserInput/5-MultiplicationUserInput.project" Active="No"/>
+  </VirtualDirectory>
+  <Project Name="ifelse-exe" Path="ifelse-exe/ifelse-exe.project" Active="No"/>
+  <Project Name="switch_exe" Path="switch_exe/switch_exe.project" Active="No"/>
+  <Project Name="drinks_exe" Path="drinks_exe/drinks_exe.project" Active="No"/>
+  <Project Name="while-loop-add-num" Path="while-loop-add-num/while-loop-add-num.project" Active="No"/>
+  <Project Name="while-positive-negative" Path="while-positive-negative/while-positive-negative.project" Active="No"/>
+  <Project Name="nested-loops" Path="nested-loops/nested-loops.project" Active="No"/>
+  <VirtualDirectory Name="FOP-Assignment-3">
+    <Project Name="Payment_Interest" Path="Payment_Interest/Payment_Interest.project" Active="No"/>
+    <Project Name="MonthDisplay" Path="MonthDisplay/MonthDisplay.project" Active="No"/>
+    <Project Name="MenuOrder" Path="MenuOrder/MenuOrder.project" Active="No"/>
+  </VirtualDirectory>
+  <Project Name="function" Path="function/function.project" Active="No"/>
+  <Project Name="FOP-Arrays" Path="FOP-Arrays/FOP-Arrays.project" Active="No"/>
+  <VirtualDirectory Name="FOP-Assignment-4">
+    <Project Name="repetition" Path="repetition/repetition.project" Active="No"/>
+    <Project Name="repetition-user-input" Path="repetition-user-input/repetition-user-input.project" Active="No"/>
+    <Project Name="number-tree" Path="number-tree/number-tree.project" Active="No"/>
+    <Project Name="salary-by-working-hours" Path="salary-by-working-hours/salary-by-working-hours.project" Active="Yes"/>
+  </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -34,6 +71,75 @@
       <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
       <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
       <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
+      <Project Name="Sem2_extra_activity" ConfigName="Release"/>
+      <Project Name="SurfaceAreaCalcConst" ConfigName="Release"/>
+      <Project Name="ageANDweight" ConfigName="Release"/>
+      <Project Name="CinemaTicket" ConfigName="Release"/>
+      <Project Name="CinemaTicket" ConfigName="Release"/>
+      <Project Name="CinemaTicket" ConfigName="Release"/>
+      <Project Name="CinemaTicket" ConfigName="Release"/>
+      <Project Name="FirstMiddleLast" ConfigName="Release"/>
+      <Project Name="FirstMiddleLast" ConfigName="Release"/>
+      <Project Name="FirstMiddleLast" ConfigName="Release"/>
+      <Project Name="ContactInfo" ConfigName="Release"/>
+      <Project Name="Pass" ConfigName="Release"/>
+      <Project Name="Pass" ConfigName="Release"/>
+      <Project Name="Pass" ConfigName="Release"/>
+      <Project Name="Pass" ConfigName="Release"/>
+      <Project Name="Pass" ConfigName="Release"/>
+      <Project Name="Exe" ConfigName="Release"/>
+      <Project Name="test-ground" ConfigName="Release"/>
+      <Project Name="test-ground" ConfigName="Release"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="4-DebugExercise" ConfigName="Release"/>
+      <Project Name="5-MultiplicationUserInput" ConfigName="Release"/>
+      <Project Name="2-IndependentOperations" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="4-DebugExercise" ConfigName="Release"/>
+      <Project Name="4-DebugExercise" ConfigName="Release"/>
+      <Project Name="5-MultiplicationUserInput" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="switch_exe" ConfigName="Release"/>
+      <Project Name="switch_exe" ConfigName="Release"/>
+      <Project Name="drinks_exe" ConfigName="Release"/>
+      <Project Name="drinks_exe" ConfigName="Release"/>
+      <Project Name="drinks_exe" ConfigName="Release"/>
+      <Project Name="Testing" ConfigName="Release"/>
+      <Project Name="while-loop-add-num" ConfigName="Release"/>
+      <Project Name="while-positive-negative" ConfigName="Release"/>
+      <Project Name="nested-loops" ConfigName="Release"/>
+      <Project Name="MonthDisplay" ConfigName="Release"/>
+      <Project Name="MenuOrder" ConfigName="Release"/>
+      <Project Name="function" ConfigName="Release"/>
+      <Project Name="FOP-Arrays" ConfigName="Release"/>
+      <Project Name="FOP-Arrays" ConfigName="Release"/>
+      <Project Name="FOP-Arrays" ConfigName="Release"/>
+      <Project Name="FOP-Arrays" ConfigName="Release"/>
+      <Project Name="FOP-Arrays" ConfigName="Release"/>
+      <Project Name="FOP-Arrays" ConfigName="Release"/>
+      <Project Name="repetition" ConfigName="Release"/>
+      <Project Name="number-tree" ConfigName="Release"/>
+      <Project Name="number-tree" ConfigName="Release"/>
+      <Project Name="number-tree" ConfigName="Release"/>
+      <Project Name="number-tree" ConfigName="Release"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -62,6 +168,75 @@
       <Project Name="MYRtoSGDconverter" ConfigName="Debug"/>
       <Project Name="MYRtoSGDconverter" ConfigName="Debug"/>
       <Project Name="MYRtoSGDconverter" ConfigName="Debug"/>
+      <Project Name="Exercise" ConfigName="Debug"/>
+      <Project Name="TotalMinutesInADay" ConfigName="Debug"/>
+      <Project Name="CinemaTicket" ConfigName="Debug"/>
+      <Project Name="CinemaTicket" ConfigName="Debug"/>
+      <Project Name="CinemaTicket" ConfigName="Debug"/>
+      <Project Name="CinemaTicket" ConfigName="Debug"/>
+      <Project Name="FirstMiddleLast" ConfigName="Debug"/>
+      <Project Name="FirstMiddleLast" ConfigName="Debug"/>
+      <Project Name="FirstMiddleLast" ConfigName="Debug"/>
+      <Project Name="FirstMiddleLast" ConfigName="Debug"/>
+      <Project Name="ContactInfo" ConfigName="Debug"/>
+      <Project Name="Pass" ConfigName="Debug"/>
+      <Project Name="Pass" ConfigName="Debug"/>
+      <Project Name="Pass" ConfigName="Debug"/>
+      <Project Name="Pass" ConfigName="Debug"/>
+      <Project Name="Pass" ConfigName="Debug"/>
+      <Project Name="test-ground" ConfigName="Debug"/>
+      <Project Name="test-ground" ConfigName="Debug"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Debug"/>
+      <Project Name="2-IndependentOperations" ConfigName="Debug"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Debug"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Debug"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Debug"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Debug"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Debug"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Debug"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Debug"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Debug"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Debug"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Debug"/>
+      <Project Name="4-DebugExercise" ConfigName="Debug"/>
+      <Project Name="5-MultiplicationUserInput" ConfigName="Debug"/>
+      <Project Name="2-IndependentOperations" ConfigName="Debug"/>
+      <Project Name="2-IndependentOperations" ConfigName="Debug"/>
+      <Project Name="4-DebugExercise" ConfigName="Debug"/>
+      <Project Name="4-DebugExercise" ConfigName="Debug"/>
+      <Project Name="4-DebugExercise" ConfigName="Debug"/>
+      <Project Name="ifelse-exe" ConfigName="Debug"/>
+      <Project Name="ifelse-exe" ConfigName="Debug"/>
+      <Project Name="ifelse-exe" ConfigName="Debug"/>
+      <Project Name="ifelse-exe" ConfigName="Debug"/>
+      <Project Name="ifelse-exe" ConfigName="Debug"/>
+      <Project Name="ifelse-exe" ConfigName="Debug"/>
+      <Project Name="ifelse-exe" ConfigName="Debug"/>
+      <Project Name="ifelse-exe" ConfigName="Debug"/>
+      <Project Name="switch_exe" ConfigName="Debug"/>
+      <Project Name="switch_exe" ConfigName="Debug"/>
+      <Project Name="switch_exe" ConfigName="Debug"/>
+      <Project Name="drinks_exe" ConfigName="Debug"/>
+      <Project Name="drinks_exe" ConfigName="Debug"/>
+      <Project Name="Testing" ConfigName="Debug"/>
+      <Project Name="while-loop-add-num" ConfigName="Debug"/>
+      <Project Name="while-loop-add-num" ConfigName="Debug"/>
+      <Project Name="while-positive-negative" ConfigName="Debug"/>
+      <Project Name="Payment_Interest" ConfigName="Debug"/>
+      <Project Name="MenuOrder" ConfigName="Debug"/>
+      <Project Name="function" ConfigName="Debug"/>
+      <Project Name="FOP-Arrays" ConfigName="Debug"/>
+      <Project Name="FOP-Arrays" ConfigName="Debug"/>
+      <Project Name="FOP-Arrays" ConfigName="Debug"/>
+      <Project Name="FOP-Arrays" ConfigName="Debug"/>
+      <Project Name="FOP-Arrays" ConfigName="Debug"/>
+      <Project Name="FOP-Arrays" ConfigName="Debug"/>
+      <Project Name="repetition" ConfigName="Debug"/>
+      <Project Name="repetition-user-input" ConfigName="Debug"/>
+      <Project Name="number-tree" ConfigName="Debug"/>
+      <Project Name="number-tree" ConfigName="Debug"/>
+      <Project Name="number-tree" ConfigName="Debug"/>
+      <Project Name="salary-by-working-hours" ConfigName="Debug"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

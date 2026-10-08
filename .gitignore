@@ -33,3 +33,17 @@ wxcrafter/src/wxcversion.cpp
 LiteEditor/autoversion.h
 .DS_Store
 .kiro/
+
+# Build outputs
+Debug/
+Release/
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+
+# CodeLite specific workspace session files
+*.workspace-session
+.codelite/
