@@ -42,105 +42,11 @@
     <Project Name="repetition" Path="repetition/repetition.project" Active="No"/>
     <Project Name="repetition-user-input" Path="repetition-user-input/repetition-user-input.project" Active="No"/>
     <Project Name="number-tree" Path="number-tree/number-tree.project" Active="No"/>
-    <Project Name="salary-by-working-hours" Path="salary-by-working-hours/salary-by-working-hours.project" Active="Yes"/>
+    <Project Name="salary-by-working-hours" Path="salary-by-working-hours/salary-by-working-hours.project" Active="No"/>
   </VirtualDirectory>
+  <Project Name="FOP-Final-Online-Clothing-Store" Path="FOP-Final-Online-Clothing-Store/FOP-Final-Online-Clothing-Store.project" Active="No"/>
+  <Project Name="Online-Clothing-Store-V2" Path="Online-Clothing-Store-V2/Online-Clothing-Store-V2.project" Active="Yes"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Release">
-      <Environment/>
-      <Project Name="ThatsMyFavNumberToo" ConfigName="Release"/>
-      <Project Name="ThatsMyFavNumberToo" ConfigName="Release"/>
-      <Project Name="InputSeparation" ConfigName="Release"/>
-      <Project Name="InputSeparation" ConfigName="Release"/>
-      <Project Name="InputSeparation" ConfigName="Release"/>
-      <Project Name="AddingNumbers" ConfigName="Release"/>
-      <Project Name="AddingNumbers" ConfigName="Release"/>
-      <Project Name="Arrays" ConfigName="Release"/>
-      <Project Name="Arrays" ConfigName="Release"/>
-      <Project Name="Arrays" ConfigName="Release"/>
-      <Project Name="Arrays" ConfigName="Release"/>
-      <Project Name="Arrays" ConfigName="Release"/>
-      <Project Name="Arrays" ConfigName="Release"/>
-      <Project Name="Arrays" ConfigName="Release"/>
-      <Project Name="Vectors" ConfigName="Release"/>
-      <Project Name="AssignmentOperator" ConfigName="Release"/>
-      <Project Name="AssignmentOperator" ConfigName="Release"/>
-      <Project Name="AssignmentOperator" ConfigName="Release"/>
-      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
-      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
-      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
-      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
-      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
-      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
-      <Project Name="Sem2_extra_activity" ConfigName="Release"/>
-      <Project Name="SurfaceAreaCalcConst" ConfigName="Release"/>
-      <Project Name="ageANDweight" ConfigName="Release"/>
-      <Project Name="CinemaTicket" ConfigName="Release"/>
-      <Project Name="CinemaTicket" ConfigName="Release"/>
-      <Project Name="CinemaTicket" ConfigName="Release"/>
-      <Project Name="CinemaTicket" ConfigName="Release"/>
-      <Project Name="FirstMiddleLast" ConfigName="Release"/>
-      <Project Name="FirstMiddleLast" ConfigName="Release"/>
-      <Project Name="FirstMiddleLast" ConfigName="Release"/>
-      <Project Name="ContactInfo" ConfigName="Release"/>
-      <Project Name="Pass" ConfigName="Release"/>
-      <Project Name="Pass" ConfigName="Release"/>
-      <Project Name="Pass" ConfigName="Release"/>
-      <Project Name="Pass" ConfigName="Release"/>
-      <Project Name="Pass" ConfigName="Release"/>
-      <Project Name="Exe" ConfigName="Release"/>
-      <Project Name="test-ground" ConfigName="Release"/>
-      <Project Name="test-ground" ConfigName="Release"/>
-      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
-      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
-      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
-      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
-      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
-      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
-      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
-      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
-      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
-      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
-      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
-      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
-      <Project Name="4-DebugExercise" ConfigName="Release"/>
-      <Project Name="5-MultiplicationUserInput" ConfigName="Release"/>
-      <Project Name="2-IndependentOperations" ConfigName="Release"/>
-      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
-      <Project Name="4-DebugExercise" ConfigName="Release"/>
-      <Project Name="4-DebugExercise" ConfigName="Release"/>
-      <Project Name="5-MultiplicationUserInput" ConfigName="Release"/>
-      <Project Name="ifelse-exe" ConfigName="Release"/>
-      <Project Name="ifelse-exe" ConfigName="Release"/>
-      <Project Name="ifelse-exe" ConfigName="Release"/>
-      <Project Name="ifelse-exe" ConfigName="Release"/>
-      <Project Name="ifelse-exe" ConfigName="Release"/>
-      <Project Name="ifelse-exe" ConfigName="Release"/>
-      <Project Name="ifelse-exe" ConfigName="Release"/>
-      <Project Name="ifelse-exe" ConfigName="Release"/>
-      <Project Name="switch_exe" ConfigName="Release"/>
-      <Project Name="switch_exe" ConfigName="Release"/>
-      <Project Name="drinks_exe" ConfigName="Release"/>
-      <Project Name="drinks_exe" ConfigName="Release"/>
-      <Project Name="drinks_exe" ConfigName="Release"/>
-      <Project Name="Testing" ConfigName="Release"/>
-      <Project Name="while-loop-add-num" ConfigName="Release"/>
-      <Project Name="while-positive-negative" ConfigName="Release"/>
-      <Project Name="nested-loops" ConfigName="Release"/>
-      <Project Name="MonthDisplay" ConfigName="Release"/>
-      <Project Name="MenuOrder" ConfigName="Release"/>
-      <Project Name="function" ConfigName="Release"/>
-      <Project Name="FOP-Arrays" ConfigName="Release"/>
-      <Project Name="FOP-Arrays" ConfigName="Release"/>
-      <Project Name="FOP-Arrays" ConfigName="Release"/>
-      <Project Name="FOP-Arrays" ConfigName="Release"/>
-      <Project Name="FOP-Arrays" ConfigName="Release"/>
-      <Project Name="FOP-Arrays" ConfigName="Release"/>
-      <Project Name="repetition" ConfigName="Release"/>
-      <Project Name="number-tree" ConfigName="Release"/>
-      <Project Name="number-tree" ConfigName="Release"/>
-      <Project Name="number-tree" ConfigName="Release"/>
-      <Project Name="number-tree" ConfigName="Release"/>
-    </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="BasicInfoDisplay" ConfigName="Debug"/>
@@ -237,6 +143,105 @@
       <Project Name="number-tree" ConfigName="Debug"/>
       <Project Name="number-tree" ConfigName="Debug"/>
       <Project Name="salary-by-working-hours" ConfigName="Debug"/>
+      <Project Name="FOP-Final-Online-Clothing-Store" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="ThatsMyFavNumberToo" ConfigName="Release"/>
+      <Project Name="ThatsMyFavNumberToo" ConfigName="Release"/>
+      <Project Name="InputSeparation" ConfigName="Release"/>
+      <Project Name="InputSeparation" ConfigName="Release"/>
+      <Project Name="InputSeparation" ConfigName="Release"/>
+      <Project Name="AddingNumbers" ConfigName="Release"/>
+      <Project Name="AddingNumbers" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Arrays" ConfigName="Release"/>
+      <Project Name="Vectors" ConfigName="Release"/>
+      <Project Name="AssignmentOperator" ConfigName="Release"/>
+      <Project Name="AssignmentOperator" ConfigName="Release"/>
+      <Project Name="AssignmentOperator" ConfigName="Release"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
+      <Project Name="MYRtoSGDconverter" ConfigName="Release"/>
+      <Project Name="Sem2_extra_activity" ConfigName="Release"/>
+      <Project Name="SurfaceAreaCalcConst" ConfigName="Release"/>
+      <Project Name="ageANDweight" ConfigName="Release"/>
+      <Project Name="CinemaTicket" ConfigName="Release"/>
+      <Project Name="CinemaTicket" ConfigName="Release"/>
+      <Project Name="CinemaTicket" ConfigName="Release"/>
+      <Project Name="CinemaTicket" ConfigName="Release"/>
+      <Project Name="FirstMiddleLast" ConfigName="Release"/>
+      <Project Name="FirstMiddleLast" ConfigName="Release"/>
+      <Project Name="FirstMiddleLast" ConfigName="Release"/>
+      <Project Name="ContactInfo" ConfigName="Release"/>
+      <Project Name="Pass" ConfigName="Release"/>
+      <Project Name="Pass" ConfigName="Release"/>
+      <Project Name="Pass" ConfigName="Release"/>
+      <Project Name="Pass" ConfigName="Release"/>
+      <Project Name="Pass" ConfigName="Release"/>
+      <Project Name="Exe" ConfigName="Release"/>
+      <Project Name="test-ground" ConfigName="Release"/>
+      <Project Name="test-ground" ConfigName="Release"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
+      <Project Name="1-AlgebraicOperations" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="4-DebugExercise" ConfigName="Release"/>
+      <Project Name="5-MultiplicationUserInput" ConfigName="Release"/>
+      <Project Name="2-IndependentOperations" ConfigName="Release"/>
+      <Project Name="3-BooleanExpressions" ConfigName="Release"/>
+      <Project Name="4-DebugExercise" ConfigName="Release"/>
+      <Project Name="4-DebugExercise" ConfigName="Release"/>
+      <Project Name="5-MultiplicationUserInput" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="ifelse-exe" ConfigName="Release"/>
+      <Project Name="switch_exe" ConfigName="Release"/>
+      <Project Name="switch_exe" ConfigName="Release"/>
+      <Project Name="drinks_exe" ConfigName="Release"/>
+      <Project Name="drinks_exe" ConfigName="Release"/>
+      <Project Name="drinks_exe" ConfigName="Release"/>
+      <Project Name="Testing" ConfigName="Release"/>
+      <Project Name="while-loop-add-num" ConfigName="Release"/>
+      <Project Name="while-positive-negative" ConfigName="Release"/>
+      <Project Name="nested-loops" ConfigName="Release"/>
+      <Project Name="MonthDisplay" ConfigName="Release"/>
+      <Project Name="MenuOrder" ConfigName="Release"/>
+      <Project Name="function" ConfigName="Release"/>
+      <Project Name="FOP-Arrays" ConfigName="Release"/>
+      <Project Name="FOP-Arrays" ConfigName="Release"/>
+      <Project Name="FOP-Arrays" ConfigName="Release"/>
+      <Project Name="FOP-Arrays" ConfigName="Release"/>
+      <Project Name="FOP-Arrays" ConfigName="Release"/>
+      <Project Name="FOP-Arrays" ConfigName="Release"/>
+      <Project Name="repetition" ConfigName="Release"/>
+      <Project Name="number-tree" ConfigName="Release"/>
+      <Project Name="number-tree" ConfigName="Release"/>
+      <Project Name="number-tree" ConfigName="Release"/>
+      <Project Name="number-tree" ConfigName="Release"/>
+      <Project Name="FOP-Final-Online-Clothing-Store" ConfigName="Release"/>
+      <Project Name="Online-Clothing-Store-V2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
