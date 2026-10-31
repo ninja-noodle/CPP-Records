@@ -104,7 +104,7 @@ string getCurrentDateTime() {
 }
 
 // function to output receipt to terminal and save to file simultaneously
-void printAndSaveReceipt(string customerName, const string itemNames[], const int itemQuantities[], const double itemPrices[], int cartSize, double totalBasePrice, double discountPercent, double discount, double finalPrice, string dateTime) {
+void printReceipt(string customerName, const string itemNames[], const int itemQuantities[], const double itemPrices[], int cartSize, double totalBasePrice, double discountPercent, double discount, double finalPrice, string dateTime) {
     
     // open file for writing (appending logs)
     ofstream outFile("clothes_receipt.txt", ios::app);
@@ -268,7 +268,7 @@ int main() {
 
         // print itemized receipt to terminal and save to file automatically
         cout << "\n";
-        printAndSaveReceipt(customerName, cartItemNames, cartQuantities, cartItemPrices, cartSize, grandTotalBasePrice, discountPercent, discount, finalPrice, purchaseDateTime);
+        printReceipt(customerName, cartItemNames, cartQuantities, cartItemPrices, cartSize, grandTotalBasePrice, discountPercent, discount, finalPrice, purchaseDateTime);
 
         // ask if user want to start a brand new customer session
         cout << "\nDo you want to start a new customer session? (Y/N): ";
