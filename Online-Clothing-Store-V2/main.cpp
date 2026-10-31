@@ -1,7 +1,9 @@
 #include <iostream>
+#include <fstream>
 #include <iomanip> 
 #include <string>
 #include <limits>
+#include <ctime>
 
 using namespace std;
 
@@ -19,13 +21,13 @@ double calcPrice(char clothesCode, int quantity) {
     double unitPrice = 0.0;
     
     switch (toupper(clothesCode)) {
-        case 'A': // classic T-Shirt
+        case 'A': // polo shirt
             unitPrice = 45.00;
             break;
-        case 'B': // denim jeans
+        case 'B': // baggie jeans
             unitPrice = 120.00;
             break;
-        case 'C': // winter jacket
+        case 'C': // vintage hoodie
             unitPrice = 180.00;
             break;
         case 'D': // knitted sweater
@@ -53,7 +55,6 @@ double getUnitPrice(char clothesCode) {
         default:  return 0.00;
     }
 }
-
 
 // function to get discount percentage
 double getDiscount(double totalBasePrice) {
@@ -97,11 +98,21 @@ string getClothesName(char clothesCode) {
     }
 }
 
+// function to get current date and time as a formatted string
+string getCurrentDateTime() {
+    time_t now = time(0);
+    char dt[80];
+    tm *ltm = localtime(&now);
+    strftime(dt, sizeof(dt), "%d-%m-%Y %H:%M:%S", ltm);
+    return string(dt);
+}
+
 // function to output receipt
-void printReceipt(string customerName, const string itemNames[], const int itemQuantities[], const double itemPrices[], int cartSize, double totalBasePrice, double discountPercent, double discount, double finalPrice) {
+void printReceipt(string customerName, const string itemNames[], const int itemQuantities[], const double itemPrices[], int cartSize, double totalBasePrice, double discountPercent, double discount, double finalPrice, string dateTime) {
     cout << "========================================\n"
-         << "           CLOTHING SHOP RECEIPT        \n"
+         << "                RECEIPT                 \n"
          << "========================================\n"
+         << "Date & Time   : " << dateTime << "\n"
          << "Customer Name : " << customerName << "\n"
          << "----------------------------------------\n"
          << "Purchased Items:\n";
@@ -117,6 +128,37 @@ void printReceipt(string customerName, const string itemNames[], const int itemQ
          << "Discount      : RM " << discount << " (" << discountPercent * 100 << "%)" << "\n"
          << "Final Price   : RM " << finalPrice << "\n"
          << "========================================\n\n";
+}
+
+// function to save receipt to file
+void saveReceiptToFile(string customerName, const string itemNames[], const int itemQuantities[], const double itemPrices[], int cartSize, double totalBasePrice, double discountPercent, double discount, double finalPrice, string dateTime) {
+    ofstream outFile("receipt.txt", ios::app);
+    if (outFile.is_open()) {
+        outFile << "========================================\n"
+                << "                RECEIPT                 \n"
+                << "========================================\n"
+                << "Date & Time   : " << dateTime << "\n"
+                << "Customer Name : " << customerName << "\n"
+                << "----------------------------------------\n"
+                << "Purchased Items:\n";
+                
+        for (int i = 0; i < cartSize; ++i) {
+            outFile << "  - " << itemNames[i] << "\n"
+                    << "    Qty: " << itemQuantities[i] << " | Subtotal: RM " << fixed << setprecision(2) << itemPrices[i] << "\n";
+        }
+        
+        outFile << "----------------------------------------\n"
+                << fixed << setprecision(2)
+                << "Total Price   : RM " << totalBasePrice << "\n"
+                << "Discount      : RM " << discount << " (" << discountPercent * 100 << "%)" << "\n"
+                << "Final Price   : RM " << finalPrice << "\n"
+                << "========================================\n\n";
+                
+        outFile.close();
+        cout << "Receipt successfully saved to receipt.txt\n";
+    } else {
+        cout << "Error: unable to open receipt file for writing.\n";
+    }
 }
 
 int main() {
@@ -175,15 +217,15 @@ int main() {
 
             // quantity validation
             while (true) {
-                cout << "Enter quantity purchased: ";
+                cout << "Enter quantity: ";
                 if (cin >> quantity) {
                     if (quantity > 0) {
                         break;
                     } else {
-                        cout << "Oh no! Quantity must be greater than 0 :(\n";
+                        cout << "Oh no! Quantity must be greater than 0\n";
                     }
                 } else {
-                    cout << "Oh no! Invalid input! Please enter numbers only :(\n";
+                    cout << "Invalid input! Please enter numbers only\n";
                     // clearing the fail error caused in cin by invalid inputs
                     cin.clear();
                     // clearing the input cin so that it can be looped and stopped at cin line
@@ -216,11 +258,27 @@ int main() {
         double discount = calculateDiscount(grandTotalBasePrice, discountPercent);
         double finalPrice = grandTotalBasePrice - discount;
 
-        // print itemized combined receipt and save to file
-        cout << "\n";
-        printReceipt(customerName, cartItemNames, cartQuantities, cartItemPrices, cartSize, grandTotalBasePrice, discountPercent, discount, finalPrice);
+        // get current system date and time
+        string purchaseDateTime = getCurrentDateTime();
 
-        // ask if they want to start a brand new customer session
+        // print itemized combined receipt on terminal
+        cout << "\n";
+        printReceipt(customerName, cartItemNames, cartQuantities, cartItemPrices, cartSize, grandTotalBasePrice, discountPercent, discount, finalPrice, purchaseDateTime);
+
+        // prompt user if user want to save receipt to text file
+        char saveChoice;
+        cout << "Do you want to save the receipt onto receipt.txt file? (Y/N): ";
+        cin >> saveChoice;
+        while (toupper(saveChoice) != 'Y' && toupper(saveChoice) != 'N') {
+            cout << "Invalid choice! Please enter Y or N: ";
+            cin >> saveChoice;
+        }
+
+        if (toupper(saveChoice) == 'Y') {
+            saveReceiptToFile(customerName, cartItemNames, cartQuantities, cartItemPrices, cartSize, grandTotalBasePrice, discountPercent, discount, finalPrice, purchaseDateTime);
+        }
+
+        // ask if user want to start a brand new customer session
         cout << "Do you want to start a new customer session? (Y/N): ";
         cin >> continueSession;
         while (toupper(continueSession) != 'Y' && toupper(continueSession) != 'N') {
@@ -229,6 +287,6 @@ int main() {
         }
     }
 
-    cout << "\nThank you for shopping with Urban Threads!\n";
+    cout << "\nThank you for shopping with Urban Threads Boutique :)\n";
     return 0;
 }
