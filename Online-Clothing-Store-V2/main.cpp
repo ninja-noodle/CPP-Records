@@ -102,7 +102,7 @@ void printReceipt(string customerName, const string itemNames[], const int itemQ
     // helper lambda or inline printing to console and file cleanly
     auto writeReceipt = [&](ostream &out) {
         out << "========================================\n"
-             << "         CLOTHING SHOP RECEIPT          \n"
+             << "                 RECEIPT                \n"
              << "========================================\n"
              << "Customer Name : " << customerName << "\n"
              << "----------------------------------------\n"
