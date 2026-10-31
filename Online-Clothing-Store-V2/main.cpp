@@ -99,31 +99,24 @@ string getClothesName(char clothesCode) {
 
 // function to output receipt
 void printReceipt(string customerName, const string itemNames[], const int itemQuantities[], const double itemPrices[], int cartSize, double totalBasePrice, double discountPercent, double discount, double finalPrice) {
-    // helper lambda or inline printing to console and file cleanly
-    auto writeReceipt = [&](ostream &out) {
-        out << "========================================\n"
-             << "                 RECEIPT                \n"
-             << "========================================\n"
-             << "Customer Name : " << customerName << "\n"
-             << "----------------------------------------\n"
-             << "Purchased Items:\n";
-             
-        for (int i = 0; i < cartSize; ++i) {
-            out << "  - " << itemNames[i] << "\n"
-                 << "    Qty: " << itemQuantities[i] << " | Subtotal: RM " << fixed << setprecision(2) << itemPrices[i] << "\n";
-        }
-        
-        out << "----------------------------------------\n"
-             << fixed << setprecision(2)
-             << "Total Price   : RM " << totalBasePrice << "\n"
-             
-             << "Discount      : RM " << discount << " (" << discountPercent * 100 << "%)" <<"\n"
-             << "Final Price   : RM " << finalPrice << "\n"
-             << "========================================\n\n";
-    };
-
-    // print to screen
-    writeReceipt(cout);
+    cout << "========================================\n"
+         << "           CLOTHING SHOP RECEIPT        \n"
+         << "========================================\n"
+         << "Customer Name : " << customerName << "\n"
+         << "----------------------------------------\n"
+         << "Purchased Items:\n";
+         
+    for (int i = 0; i < cartSize; ++i) {
+        cout << "  - " << itemNames[i] << "\n"
+             << "    Qty: " << itemQuantities[i] << " | Subtotal: RM " << fixed << setprecision(2) << itemPrices[i] << "\n";
+    }
+    
+    cout << "----------------------------------------\n"
+         << fixed << setprecision(2)
+         << "Total Price   : RM " << totalBasePrice << "\n"
+         << "Discount      : RM " << discount << " (" << discountPercent * 100 << "%)" << "\n"
+         << "Final Price   : RM " << finalPrice << "\n"
+         << "========================================\n\n";
 }
 
 int main() {
