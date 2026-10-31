@@ -45,7 +45,8 @@
     <Project Name="salary-by-working-hours" Path="salary-by-working-hours/salary-by-working-hours.project" Active="No"/>
   </VirtualDirectory>
   <Project Name="FOP-Final-Online-Clothing-Store" Path="FOP-Final-Online-Clothing-Store/FOP-Final-Online-Clothing-Store.project" Active="No"/>
-  <Project Name="Online-Clothing-Store-V2" Path="Online-Clothing-Store-V2/Online-Clothing-Store-V2.project" Active="Yes"/>
+  <Project Name="Online-Clothing-Store-V2" Path="Online-Clothing-Store-V2/Online-Clothing-Store-V2.project" Active="No"/>
+  <Project Name="Online-Clothing-Store-V3" Path="Online-Clothing-Store-V3/Online-Clothing-Store-V3.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -144,6 +145,7 @@
       <Project Name="number-tree" ConfigName="Debug"/>
       <Project Name="salary-by-working-hours" ConfigName="Debug"/>
       <Project Name="FOP-Final-Online-Clothing-Store" ConfigName="Debug"/>
+      <Project Name="Online-Clothing-Store-V3" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -242,6 +244,7 @@
       <Project Name="number-tree" ConfigName="Release"/>
       <Project Name="FOP-Final-Online-Clothing-Store" ConfigName="Release"/>
       <Project Name="Online-Clothing-Store-V2" ConfigName="Release"/>
+      <Project Name="Online-Clothing-Store-V3" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

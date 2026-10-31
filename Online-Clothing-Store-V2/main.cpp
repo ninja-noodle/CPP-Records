@@ -155,7 +155,7 @@ void saveReceiptToFile(string customerName, const string itemNames[], const int 
                 << "========================================\n\n";
                 
         outFile.close();
-        cout << "Receipt successfully saved to receipt.txt\n";
+        cout << "Receipt successfully saved to clothes_receipt.txt\n";
     } else {
         cout << "Error: unable to open receipt file for writing.\n";
     }
@@ -267,7 +267,7 @@ int main() {
 
         // prompt user if user want to save receipt to text file
         char saveChoice;
-        cout << "Do you want to save the receipt onto receipt.txt file? (Y/N): ";
+        cout << "Do you want to save the receipt onto clothes_receipt.txt file? (Y/N): ";
         cin >> saveChoice;
         while (toupper(saveChoice) != 'Y' && toupper(saveChoice) != 'N') {
             cout << "Invalid choice! Please enter Y or N: ";
